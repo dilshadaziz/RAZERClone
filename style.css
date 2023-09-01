@@ -1,0 +1,276 @@
+.Container{
+    width: 100%;
+    height: 100%;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.Header{
+    border-bottom: 1px solid #44D62C;
+    font-family:'Helvetica';
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.headeritems{
+    min-width: 44px; 
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+    margin-left: 54px;
+    padding-top: 7px; 
+    cursor: pointer;
+}
+.headeritems:hover{
+    color: white;
+    transition: .3s;
+}
+#joinnow{
+    cursor: pointer;
+    color: #eee;
+}
+#joinnow:hover{
+    transition: .3s;
+    text-decoration:underline ;
+}
+.shopitems{
+    font-size: 12px;
+    font-family: Helvetica; 
+    color: #999;
+    line-height: 17px; 
+    cursor: pointer;
+}
+.shopitems:hover{
+    color: white;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.exploreitems{
+    font-size: 12px;
+    font-family: Helvetica; 
+    color: #999;
+    line-height: 17px; 
+    cursor: pointer;
+
+}
+.exploreitems:hover{
+    color: white;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.supportitems{
+    font-size: 12px;
+    font-family: Helvetica; 
+    color: #999;
+    line-height: 17px; 
+    cursor: pointer;
+
+}
+.supportitems:hover{
+    color: white;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.companyitems{
+    font-size: 12px;
+    font-family: Helvetica; 
+    color: #999;
+    line-height: 17px; 
+    cursor: pointer;
+
+}
+.companyitems:hover{
+    color: white;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+/* .Header2{
+    margin-top: -1px;
+    display: flex;
+    font-family:'Helvetica';
+    width: 100%;
+    height: 55px;
+    background-color: black;
+} */
+.Headnote{
+    display: flex;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top :-3px ;
+    width: 100%;
+    height: 45px;
+    background-color: #555;
+}
+.v2pro{
+    width: 100%;
+    height: 710px;
+    background-color: #222;
+}
+.v2edition{
+    width: 100%;
+    height: 710px;
+    background-color: #222;
+}
+.v2ultimateplay{
+    width: 100%;
+    height: 710px;
+    background-color: #222;
+}
+.bodyend{
+    width: 100%;
+    height: 1736px;
+    background-color: #222;
+}
+.separation1{
+    display: flex;
+    width: 100%;
+}
+.backtoschool{
+    height: 566px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.blackwidow{
+    height: 565.13px;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.separation2{
+    display: flex;
+    width: 100%;
+}
+.kitsune{
+    height: 568px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.razerblade{
+    height: 568px;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.separation3{
+    display: flex;
+    width: 100%;
+}
+.mercury{
+    height: 574px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.razeredge{
+    background-image: url(images/razer-edge-b-950x580-desktop.png);
+    height: 572px;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.razerbutton{
+    margin: 35px;
+    margin-left: 270px;
+    width: 105px;
+    height: 35px;
+    border: unset;
+    background-color: #ff9c07;
+}
+.footer{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 370px;
+    background-color: #111;
+}
+.shop{
+    margin-top: 15px;
+    margin-left: 75px;
+    width: 155px;
+    height: 270px;
+}
+.explore{
+   padding-top: 15px;
+    margin-left: 25px;
+    width: 155px;
+    height: 270px;
+}
+.support{
+    padding-top: 15px;
+     margin-left: 25px;
+     width: 155px;
+     height: 270px;
+ }
+.company{
+    padding-top: 15px;
+     margin-left: 25px;
+     width: 155px;
+     height: 270px;
+ }
+.followus{
+    padding-top: 15px;
+     margin-left: 25px;
+     width: 155px;
+     height: 270px;
+ }
+.gamersnote{
+    padding-top: 13px;
+     margin-left: 100px;
+     width: 300px;
+     height: 270px;
+ }
+ .footnote{
+    display: flex;
+    margin-left: 75px;
+    width: 1170px;
+    height: 18px;
+ }
+ .copyright{
+    margin-top: -1px;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #999;
+ }
+ .terms{
+    margin-top: -1px;
+    margin-left: 40px;
+    display: flex;
+    gap: 10px;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #999;
+ }
+ .location{
+    margin-top: -1px;
+    margin-left: 298px;
+    display: flex;
+    font-size: 12px;
+    font-family: Helvetica;
+ }
+ #changelocation{
+    color: #999;
+ }
+ .termsline{
+    cursor: pointer;
+ }
+
+
+ /* ---------HOVER----------- */
+.termsline:hover{
+    color: white;
+    transition: .3s;
+    text-decoration: underline;
+}
+#changelocation:hover{
+    color: white;
+    transition: .3s;
+    text-decoration: underline;
+}
+.underlines:hover{
+    text-decoration: underline;
+}
